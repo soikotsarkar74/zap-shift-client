@@ -3,8 +3,8 @@ import React from 'react';
 
 
 const axiosInstance = axios.create({
-// baseURL:'http://localhost:5000'
-baseURL:'https://zap-shift-server-topaz-sigma.vercel.app'
+baseURL:'http://localhost:5000'
+//baseURL:'https://zap-shift-server-topaz-sigma.vercel.app'
   
 })
 
@@ -15,3 +15,4 @@ const useAxios = () => {
 export default useAxios;
 
 
+//baseURL:'http://localhost:5000'
